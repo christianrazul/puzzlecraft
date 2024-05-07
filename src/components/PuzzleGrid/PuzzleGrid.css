@@ -12,11 +12,15 @@
 }
 
 .grid {
-  width: min-content;
+  /* width: min-content;
   height: auto;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr); */
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 16rem;
 }
 
 .word {
